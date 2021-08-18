@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	width: 100vw;
+	min-height: 100vh;
+
+	font-size: max(5vmin, 16px);
+  
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    -webkit-appearance:initial;
+}
+
+button {
+	font-family: 'Recursive', sans-serif;
+	font-size: 3rem;
+	cursor: pointer;
+	background:linear-gradient(335deg, #60D9FF -4.38%, #1D74FF 48.84%);
+   border-radius: 20px;
+	color: #FFFFFF;
+	padding: 30px 60px 30px 60px;
+	transition: all .3s;
+	
+}
+
+button:hover{
+box-shadow: 0 1rem 3rem rgba(77,185,255, 0.2);
+}
